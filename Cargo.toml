@@ -1,0 +1,13 @@
+[package]
+name = "cfd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml        = { version = "0.8.12", features = [ "preserve_order" ] }
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+regex = "1.10.4"
+dirs = "5.0.1"
